@@ -8,27 +8,29 @@ Welcome to our submission for the *Agentic Ethereum Hackathon* by Reskilll & Geo
 
 ## 📌 Problem Statement
 
-We addressed the challenge: *“[Problem Statement Title]”*  
-Brief description of the challenge and why it matters.
+We addressed the challenge: *“Web3 remains inaccessible to everyday users due to fragmented chains, complex wallet management, and unpredictable gas fees.”*  
+We tackled the challenge of cross-chain fragmentation and complicated Web3 user experiences.
+Today, managing multiple wallets, keeping track of gas fees, and navigating different blockchain networks is frustrating—even for experienced users. It’s a huge barrier for anyone new to crypto or trying to use it practically..
 
 ---
 
 ## 💡 Our Solution
 
-*Project Name:* [Your Project Name]  
-A short pitch of your solution — what you built, who it’s for, and why it’s impactful.
+*Project Name:* [RunaX: Cross‑Chain Smart Wallet with BharatStack & Agentic Integration]  
+RunaX makes using crypto as easy as sending UPI. We built a smart wallet that works across multiple blockchains, pays gas fees on your behalf, and lets users do everything from simple transfers to complex transactions—without needing to understand what's happening under the hood.
+
+It’s designed for everyday users, not just developers or DeFi pros. By integrating BharatStack elements like Aadhaar, DigiLocker, and UPI (mocked), we show how Web3 can feel familiar and useful in an Indian context. We also added an AI agent to help users interact naturally..
 
 ---
 
 ## 🧱 Tech Stack
 
-- 🖥 Frontend: [React / Next.js / etc.]
-- ⚙ Backend: [Node.js / Python / etc.]
-- 🧠 AI: [Llama 3 / LangChain / OpenAI / etc.]
-- 🔗 Blockchain: [Ethereum / Solidity / Foundry / etc.]
-- 🔍 DB/Storage: [IPFS / PostgreSQL / Firebase / etc.]
-- 🚀 Hosting: [Vercel / Netlify / Render / etc.]
-
+- 🖥 Frontend:Next.js, React, Tailwind CSS
+- ⚙ Backend: Python (Flask/FastAPI) for AI‑agent server
+- 🧠 AI: LangChain (Python)
+- 🔗 Blockchain:Solidity & Hardhat on EVM chains (Sepolia & Mumbai), Account Abstraction via Thirdweb, Connext for cross‑chain
+- 🔍 DB/Storage: Firebase (Auth & Firestore)
+- 🚀 Hosting: Local Host ( as of now )
 ---
 
 ## 📽 Demo
