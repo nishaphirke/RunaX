@@ -36,7 +36,7 @@ It’s designed for everyday users, not just developers or DeFi pros. By integra
 ## 📽 Demo
 
 - 🎥 *Video Link*: [https://drive.google.com/drive/folders/19iY0cUF25qgrMHbdpYx1QpFaUqDd6-mM?usp=sharing]  
-- 🖥 *Presentation*: [https://docs.google.com/presentation/d/1GHxLXP-4b4iKTF-0QraDRd4oZt68RHgpdLMqRPQTzJ4/edit?usp=sharing]
+- 🖥 *Presentation*: [https://drive.google.com/file/d/112jFIvQVzd0EYdhTVQev8UnPTHfqc5CJ/view?usp=sharing]
 
 ---
 
