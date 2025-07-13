@@ -95,6 +95,8 @@ RUNAXAGENT/
 │   │   │   ├── globals.css
 │   │   │   ├── layout.tsx
 │   │   │   └── page.tsx
+|   |   ├── components
+|   |   |   └──WalletConnect.tsx
 │   │   └── lib/
 │   │       ├── firebase.ts
 │   │       └── thirdweb.ts
