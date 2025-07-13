@@ -58,11 +58,11 @@ RUNAXAGENT/
 │   ├── contracts/
 │   │   ├── RunaXAccount.sol #
 │   │   └── RunaXAccountFactory.sol
-├   |── ignition/
+|   |── ignition/
 │   |     └── modules/
 │   |          ├── Lock.js
 │   |          └── RunaXAccountSystemModule.js
-├   |── node_modules/
+|   |── node_modules/
 |   ├── script/
 │   |     └── deploy.js
 |   ├── test/
