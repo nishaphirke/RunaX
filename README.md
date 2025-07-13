@@ -1,6 +1,6 @@
 # Agentic Ethereum Hackathon India
 
-# 🛠 Project Title - [Team Name]
+# 🛠 Project Title - [RunaX]
 
 Welcome to our submission for the *Agentic Ethereum Hackathon* by Reskilll & Geodework! This repository includes our project code, documentation, and related assets.
 
