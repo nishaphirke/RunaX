@@ -64,9 +64,9 @@ RUNAXAGENT/
 │   |          └── RunaXAccountSystemModule.js
 ├   |── node_modules/
 |   ├── script/
-│         └── deploy.js
+│   |     └── deploy.js
 |   ├── test/
-│         └── Lock.js
+│   |      └── Lock.js
 |   ├──.gitignore
 |   ├──hardhat.config.js
 |   ├──package-lock.json
