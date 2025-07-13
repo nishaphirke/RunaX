@@ -44,37 +44,38 @@ It’s designed for everyday users, not just developers or DeFi pros. By integra
 
 ```bash
 ```
+```
 RUNAXAGENT/
 ├── agent/
 │   ├── venv/
 │   │   ├── Include/
 │   │   ├── Lib/
-|   |   ├── pyvenv.cfg
+│   │   ├── pyvenv.cfg
 │   │   └── Scripts/
-│   ├── app.py # langchain  
+│   ├── app.py # AI agent application powered by LangChain
 │   └── requirements.txt
 ├── contracts/
 │   ├── cache/
 │   ├── contracts/
-│   │   ├── RunaXAccount.sol #
-│   │   └── RunaXAccountFactory.sol
-|   |── ignition/
-│   |     └── modules/
-│   |          ├── Lock.js
-│   |          └── RunaXAccountSystemModule.js
-|   |── node_modules/
-|   ├── script/
-│   |     └── deploy.js
-|   ├── test/
-│   |      └── Lock.js
-|   ├──.gitignore
-|   ├──hardhat.config.js
-|   ├──package-lock.json
-|   ├──package.json
-|   ├──lock.sol
-|   ├──RunaXAcoount.sol
-|   ├──RunaXAccountFactory.sol
-|   ├──README.md
+│   │   ├── RunaXAccount.sol # RunaX custom smart account contract
+│   │   └── RunaXAccountFactory.sol # Factory contract for RunaX accounts
+├── ignition/
+│   └── modules/
+│       ├── Lock.js # Example Lock contract deployment module
+│       └── RunaXAccountSystemModule.js # RunaX account system deployment module
+├── node_modules/
+├── script/
+│   └── deploy.js # Deployment script for smart contracts
+├── test/
+│   └── Lock.js # Test file for the Lock contract
+├── .gitignore
+├── hardhat.config.js # Hardhat configuration file
+├── package-lock.json
+├── package.json
+├── lock.sol # Example Solidity contract
+├── RunaXAccount.sol # RunaXAccount smart contract (likely reference or duplicate)
+├── RunaXAccountFactory.sol # RunaXAccountFactory smart contract (likely reference or duplicate)
+├── README.md # Project README file
 ├── frontend/
 │   ├── .env.local
 │   ├── .gitignore
@@ -91,11 +92,11 @@ RUNAXAGENT/
 │   │   ├── app/
 │   │   │   ├── favicon.ico
 │   │   │   ├── globals.css
-│   │   │   ├── layout.tsx
-│   │   │   └── page.tsx
+│   │   │   ├── layout.tsx # Root layout component for Next.js app
+│   │   │   └── page.tsx # Main page component
 │   │   └── lib/
-│   │       ├── firebase.ts
-│   │       └── thirdweb.ts
+│   │       ├── firebase.ts # Firebase integration utilities
+│   │       └── thirdweb.ts # Thirdweb SDK integration utilities
 │   └── tsconfig.json
 ├── node_modules
 ├── .env
