@@ -43,14 +43,66 @@ It’s designed for everyday users, not just developers or DeFi pros. By integra
 ## 📂 Repository Structure
 
 ```bash
-.
-├── frontend/           # Frontend code
-├── backend/            # Backend code
-├── contracts/          # Smart contracts
-├── assets/             # PPT, video links, images
-├── docs/               # Architecture diagram, notes
-├── README.md           # A detailed description of your project
-├── .env.example
-├── package.json / requirements.txt
-├── yourppt.ppt
+```
+RUNAXAGENT/
+├── agent/
+│   ├── venv/
+│   │   ├── Include/
+│   │   ├── Lib/
+|   |   ├── pyvenv.cfg
+│   │   └── Scripts/
+│   ├── app.py # langchain  
+│   └── requirements.txt
+├── contracts/
+│   ├── cache/
+│   ├── contracts/
+│   │   ├── RunaXAccount.sol #
+│   │   └── RunaXAccountFactory.sol
+├   |── ignition/
+│   |     └── modules/
+│   |          ├── Lock.js
+│   |          └── RunaXAccountSystemModule.js
+├   |── node_modules/
+|   ├── script/
+│         └── deploy.js
+|   ├── test/
+│         └── Lock.js
+|   ├──.gitignore
+|   ├──hardhat.config.js
+|   ├──package-lock.json
+|   ├──package.json
+|   ├──lock.sol
+|   ├──RunaXAcoount.sol
+|   ├──RunaXAccountFactory.sol
+|   ├──README.md
+├── frontend/
+│   ├── .env.local
+│   ├── .gitignore
+│   ├── .next/
+│   ├── .modules.yaml
+│   ├── eslint.config.mjs
+│   ├── next-env.d.ts
+│   ├── next.config.ts
+│   ├── node_modules/
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   ├── public/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   └── lib/
+│   │       ├── firebase.ts
+│   │       └── thirdweb.ts
+│   └── tsconfig.json
+├── node_modules
+├── .env
+├── .gitignore
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+└── README.md
+```
 
